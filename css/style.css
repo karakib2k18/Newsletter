@@ -1,0 +1,322 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+a{
+    text-decoration: none;
+}
+.header {
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.header ul li:hover{
+    color: rgb(129, 255, 19);
+   
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 25px;
+}
+.header ul li a{
+    color: white;
+    font-size: 22px;
+   
+}
+.header ul li a:hover{
+    color: rgb(129, 255, 19);
+   
+}
+.newsletter{
+    background-color: #F5F5F5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+
+}
+.newsletter h1{
+    color: #2F323A;
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.newsletter p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.input1{
+    margin: 5px;
+    width: 25%;
+    padding: 22px;
+    background-color: transparent;
+    border: 1px solid black;
+    
+}
+.input2{
+    margin: 5px;
+    width: 30%;
+    padding: 22px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid black;
+}
+.input3{
+    background-color: black;
+    color: white;
+    width: 12%;
+    padding: 18px;
+    border: none;
+    border: 1px solid black;
+    font-size: 19px;
+}
+.input3:hover{
+    color: rgb(98, 209, 33);
+    border: 1px solid black;
+}
+
+.letstalk{
+    background-color: #EEE;;
+    padding-top:50px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.container1{
+    width: 1140px;
+    margin: auto;
+}
+.letstalk h1{
+    color: #2F323A;
+    font-family: "Roboto",Sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.letstalk p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.name1{
+    margin: 12px;
+    width: 33%;
+    padding: 15px !important;
+    background-color: transparent;
+    border: 1px solid black;
+    
+}
+.email1{
+    margin: 12px;
+    width: 33%;
+    padding: 15px !important;
+    background-color: transparent;
+    border: 1px solid black;
+    
+}
+.subject1{
+    margin: 12px;
+    width: 33%;
+    padding: 15px !important;
+    background-color: transparent;
+    border: 1px solid black;
+    
+}
+.phone1{
+    margin: 12px;
+    width: 33%;
+    padding: 15px !important;
+    background-color: transparent;
+    border: 1px solid black;
+    
+}
+
+.text1{
+    width: 71%;
+    padding: 17px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.submit1{
+    background-color: black;
+    color: white;
+    padding: 14px;
+
+    border: 1px solid black;
+    width: 156px;
+    font-size: 19px;
+    margin-right: 690px;
+    border-radius: 5px;
+    
+}
+
+.submit1:hover{
+    background-color: white;
+    color:black;
+
+}
+
+.footer{
+    /* background-image: url("https://wallpaperset.com/w/full/4/d/9/196953.jpg"); */
+    height: 350px;
+    background-color: black;
+    background-size: cover;
+    background-position: 112px 877px;
+    padding: 60px 0px;
+}
+.col h4{
+    color:  white ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+
+}
+
+.col .menu ul li{
+    list-style: none;
+    
+}
+
+.col .menu ul li a{
+    color: whitesmoke;
+    line-height: 26px;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+
+}
+
+hr{
+    color: whitesmoke;
+    height: 0px;
+    margin-top: 18px 0;
+}
+
+
+.footer-bottom ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    border-right: 2px solid white;
+    margin-right: 1px;
+    padding-right: 10px;
+    margin-top: 15px;
+
+}
+
+.footer-bottom ul li a{
+    color: rgb(254, 255, 254);
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.facebook{
+    color: rgb(129, 255, 19) !important;
+    margin-left: 35px !important;
+
+}
+
+.Instagram{
+    color: rgb(18, 14, 251) !important;
+
+}
+.Twitter{
+    color: rgb(17, 255, 108) !important;
+
+}
+.LinkedIn{
+    color: rgb(31, 129, 209) !important;
+
+}
+.Youtube{
+    color: rgb(226, 80, 12) !important;
+
+}
+.WeChat{
+    color: orangered !important;
+   
+
+}
+.last{
+    border-right: 0px !important;   
+
+}
+.footer-bottom p{
+    color:white;
+    margin-left: 45px !important;
+    margin: 4px;
+
+}
+
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 45px ;
+    margin-top: 15px;
+
+}
+
+.social-icon ul li a i{
+    color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: rgb(0, 17, 253);
+    line-height: 40px;
+    border-radius: 100px;
+    transition: 0.5s ease-in-out;
+
+
+}
+
+.social-icon ul li a i:hover{
+    transform: scale(1.5) rotate(1080deg);
+    transition: 0.7s ease-in-out;
+    /* border: 2px solid rgb(44, 255, 16); */
+    border: 2px solid rgb(0, 17, 253);
+    /* color:  rgb(28, 41, 228); */
+    color: black;
+    background-color: white;
+
+}
+
+.rakib{
+    font-family: georgia, serif;
+    font-weight: 600;
+    color: white;
+    
+    
+}
+
+.rakib:hover{
+    text-transform: scale(1.5);
+    text-transform: 0.7s ease-in-out;
+    font-size: 20px;
+
+}
